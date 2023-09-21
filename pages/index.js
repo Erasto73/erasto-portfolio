@@ -52,7 +52,7 @@ export default function Home() {
 
       </div>
        <div className= "mx-auto bg-gradient-to-b from-teal-500 rounded-full w-8 h-80 relative overflow-hidden mt-10 md:h-96 md:w-96 ">
-         <Image src = {"/static/img/erasto.png"} alt='photo' fill  style = "cover" />
+         <Image src = "https://drive.google.com/uc?export=view&id=1ecs4a26LTSpxhW6BmQMxHw9IDI2Rx1qS" alt='photo' fill  style = "cover" />
       </div>
     
     
