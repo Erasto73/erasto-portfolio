@@ -126,21 +126,21 @@ export default function Home() {
     <div className = " gap-10 py-10 flex flex-row rounded-xl">
      <div className = {'image-container'} >
       <a target = "_blank" rel = "noreferrer" href = "https://signaxcom-birthday-project.netlify.app/">
-      <Image className = " rounded-g object-cover"
-       src = "/pic1.png" alt = "pic1" fill className = {'image'}
+       <Image className = {'image'} 
+       src = "/pic1.png" alt = "pic1" fill 
        />
       </a>
      </div>
      <div className = {"image-container"} >
      <a target = "_blank" rel = "noreferrer" href = "https://next-events-teal.vercel.app/">
-      <Image className = "  rounded-g object-cover"
-       src = "/pic2.png"alt = "pic2" fill className = {'image'} />
+      <Image className = {'image'}
+       src = "/pic2.png"alt = "pic2" fill />
      </a>
      </div>
      <div className = {'image-container'} >
      <a target = "_blank" rel = "noreferrer" href = "https://next-quiz-app-zeta.vercel.app/">
-      <Image className = " rounded-g object-cover"
-       src = "/pic3.png" alt = "pic3" fill className = {'image'} />
+      <Image className = {'image'}
+       src = "/pic3.png" alt = "pic3" fill  />
       
      </a>
      </div>
