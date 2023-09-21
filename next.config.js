@@ -5,5 +5,8 @@ const nextConfig = {
     domains : ['drive.google.com']
 }
 }
-module.exports = nextConfig
- 
+module.exports = {
+  images: {
+    unoptimized: true,
+  },
+}
