@@ -5,6 +5,10 @@ import { AiFillLinkedin,
        } from "react-icons/ai";
 
 import Image from 'next/image';
+ 
+const UnoptimizedImage = (props) => {
+  return <Image {...props} unoptimized />
+}
 
 export default function Home() {
 
