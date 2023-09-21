@@ -52,7 +52,7 @@ export default function Home() {
 
       </div>
        <div className= "mx-auto bg-gradient-to-b from-teal-500 rounded-full w-8 h-80 relative overflow-hidden mt-10 md:h-96 md:w-96 ">
-         <Image src = "/erasto.png" alt='photo' fill  style = "cover" />
+         <Image src = {"/static/img/erasto.png"} alt='photo' fill  style = "cover" />
       </div>
     
     
@@ -66,21 +66,21 @@ export default function Home() {
       </div>
       <div className = "lg:flex gap-10">
         <div className = "text-center shadow-lg p-10 rounded-xl my-10 flex-1">
-          <Image src = "/design.png" alt="design" width={100} height={100} />
+          <Image src = {"/static/img/design.png"} alt="design" width={100} height={100} />
           <h3 className= "text-lg font-medium pt-8 pb-2">Beautiful Design</h3>
           <p className= "py-2">
             Creating elegant designs suited for your needs following core design theory.
           </p>
         </div>
         <div className= "text-center p-10 shadow-lg rounded-xl my-10 flex-1">
-         <Image src = "/code.png" alt="code" width={100} height={100} />
+         <Image src = {"/static/img/code.png"} alt="code" width={100} height={100} />
          <h3 className= "text-lg font-medium pt-8 pb-2">Code your dream project</h3>
          <p className= "py-2">
           Do you have an idea for your next website lets make it a reality.
          </p>
         </div>
         <div className= "text-center shadow-lg p-10 rounded-xl my-10 flex-1">
-         <Image src = "/consulting.png" alt="consulting" width={100} height={100} />
+         <Image src = {"/static/img/consulting.png"} alt="consulting" width={100} height={100} />
          <h3 className="text-lg font-medium pt-8 pb-2">Consulting</h3>
          <p className="py-2">
           Are you interested in feedback for your curent project I can give tips and tricks
@@ -127,20 +127,20 @@ export default function Home() {
      <div className = {'image-container'} >
       <a target = "_blank" rel = "noreferrer" href = "https://signaxcom-birthday-project.netlify.app/">
        <Image className = {'image'} 
-       src = "/pic1.png" alt = "pic1" fill 
+       src = {"/static/img/pic1.png"} alt = "pic1" fill 
        />
       </a>
      </div>
      <div className = {"image-container"} >
      <a target = "_blank" rel = "noreferrer" href = "https://next-events-teal.vercel.app/">
       <Image className = {'image'}
-       src = "/pic2.png"alt = "pic2" fill />
+       src = {"/static/img/pic2.png"} alt = "pic2" fill />
      </a>
      </div>
      <div className = {'image-container'} >
      <a target = "_blank" rel = "noreferrer" href = "https://next-quiz-app-zeta.vercel.app/">
       <Image className = {'image'}
-       src = "/pic3.png" alt = "pic3" fill  />
+       src = {"/static/img/pic3.png"} alt = "pic3" fill  />
       
      </a>
      </div>
