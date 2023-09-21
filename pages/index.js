@@ -1,3 +1,4 @@
+
 import { AiFillLinkedin,
          AiFillInstagram,
          AiFillTwitterCircle,
@@ -51,7 +52,7 @@ export default function Home() {
 
       </div>
        <div className= "mx-auto bg-gradient-to-b from-teal-500 rounded-full w-8 h-80 relative overflow-hidden mt-10 md:h-96 md:w-96 ">
-         <Image src = "/erasto.png" alt='photo' fill  objectFit = "cover" />
+         <Image src = "/erasto.png" alt='photo' fill  style = "cover" />
       </div>
     
     
@@ -123,31 +124,24 @@ export default function Home() {
       </p>
     </div>
     <div className = " gap-10 py-10 flex flex-row rounded-xl">
-     <div className = "basis-1/3 flex-1">
+     <div className = {'image-container'} >
       <a target = "_blank" rel = "noreferrer" href = "https://signaxcom-birthday-project.netlify.app/">
       <Image className = " rounded-g object-cover"
-       width = {100}
-       height = {100}
-       src = "/pic1.png" alt = "pic1"
-       layout = "responsive" />
+       src = "/pic1.png" alt = "pic1" fill className = {'image'}
+       />
       </a>
      </div>
-     <div className = "basis-1/3 flex-1">
+     <div className = {"image-container"} >
      <a target = "_blank" rel = "noreferrer" href = "https://next-events-teal.vercel.app/">
       <Image className = "  rounded-g object-cover"
-       width = {100}
-       height = {100}
-       src = "/pic2.png" alt = "pic2"
-       layout = "responsive" />
+       src = "/pic2.png"alt = "pic2" fill className = {'image'} />
      </a>
      </div>
-     <div className =  "basis-1/3 flex-1">
+     <div className = {'image-container'} >
      <a target = "_blank" rel = "noreferrer" href = "https://next-quiz-app-zeta.vercel.app/">
       <Image className = " rounded-g object-cover"
-       width = {100}
-       height = {100} 
-       src = "/pic3.png" alt = "pic3" 
-       layout = "responsive" />
+       src = "/pic3.png" alt = "pic3" fill className = {'image'} />
+      
      </a>
      </div>
     </div>
