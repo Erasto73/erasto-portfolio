@@ -8,6 +8,7 @@ import Image from 'next/image';
 import Head from "next/head"
  
 const UnoptimizedImage = (props) => {
+
   return <Image {...props} unoptimized />
 }
 
@@ -16,11 +17,11 @@ export default function Home() {
    return (
   <>
   <Head>
-        <title>Erasto portfolio</title>
-        <meta name = "description" content = "erasto technical portfolio" />
-        <link rel = "icon" href = "/favicon.ico" />
-      </Head>
- 
+    <meta name="description" content="Eng. Erasto Kasuguru, Photocopier and printer, Front end Developer, electronic equipment maintenance"/>
+    <meta name="google-site-verification" content="1QhiHbTHYjvyhyQ7dQ6-dwLmSnrIoNxCXD-YVa-SzNk"/>
+    <title>Erasto portfolio</title>
+    <meta name="robots" content="noindex,nofollow"/>
+  </Head>
   
   <main className = "bg-white md:px-20 lg: px-40 w-full justify-center" >
     <div className = " absolute right-0 bg-teal-500 text-white px-4 py-2 border-none rounded-md ">
