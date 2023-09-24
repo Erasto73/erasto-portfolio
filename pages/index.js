@@ -19,7 +19,7 @@ export default function Home() {
   <Head>
     <meta name="description" content="Eng. Erasto Kasuguru Mwanza, Photocopier and printer Mwanza, Front end Developer Mwanza, electronic equipment maintenance Mwanza"/>
     <meta name="google-site-verification" content="1QhiHbTHYjvyhyQ7dQ6-dwLmSnrIoNxCXD-YVa-SzNk"/>
-    <title>Photocopier and printer Mwanza</title>
+    <title>Erasto portfolio Mwanza</title>
     <meta name="robots" content="noindex,nofollow"/>
   </Head>
   
